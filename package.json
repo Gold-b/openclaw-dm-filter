@@ -1,0 +1,37 @@
+{
+  "name": "openclaw-dm-filter",
+  "version": "1.0.0",
+  "description": "DM keyword pre-filter hook for OpenClaw WhatsApp gateway. Saves LLM tokens by dropping non-matching DMs before they reach the AI agent.",
+  "keywords": [
+    "openclaw",
+    "whatsapp",
+    "keyword-filter",
+    "dm-filter",
+    "llm",
+    "token-saver",
+    "chatbot",
+    "automation"
+  ],
+  "author": "Or Goldberg (aka Gold-B) (https://github.com/Gold-b)",
+  "license": "MIT",
+  "homepage": "https://github.com/Gold-b/openclaw-dm-filter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gold-b/openclaw-dm-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gold-b/openclaw-dm-filter/issues"
+  },
+  "bin": {
+    "openclaw-dm-filter": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "patch/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
